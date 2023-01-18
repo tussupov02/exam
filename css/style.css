@@ -499,6 +499,7 @@ ul {
 .one__content__button {
   margin-top: 34px;
   width: 379px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -509,12 +510,11 @@ ul {
 
 @media (max-width: 420px) {
   .one__content__button {
+    margin: 0 auto;
     height: 150px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 0 auto;
-    margin-top: 50px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -753,6 +753,17 @@ ul {
   -webkit-transform: scale(1.2);
   position: relative;
   z-index: 5;
+}
+
+@media (max-width: 420px) {
+  .three .three__block .three__block1 {
+    background-color: #080809;
+  }
+  .three .three__block .three__block1:hover {
+    -webkit-transform: scale(1);
+    position: relative;
+    z-index: 5;
+  }
 }
 
 .three .three__block .three__block2 {
