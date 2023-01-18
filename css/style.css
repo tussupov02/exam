@@ -510,6 +510,8 @@ ul {
 @media (max-width: 420px) {
   .one__content__button {
     height: 150px;
+    margin: 0 auto;
+    margin-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
